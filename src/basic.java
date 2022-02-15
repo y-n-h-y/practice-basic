@@ -1,3 +1,5 @@
+package practice;
+
 public class basic {
     public static void main(String[] args) {
         // System.out.println("Hello, WEBCAMP!");
@@ -119,9 +121,24 @@ public class basic {
 //    		System.out.println(nummber * nummber);
 //    		nummber++;	
 //    	}
-    	int array[] = {1,5,10,15};
-    	for (int i = 0; i < array.length; i++) {
-    		System.out.println(array[i]);
-    	}
+//    	int array[] = {1,5,10,15};
+//    	for (int i = 0; i < array.length; i++) {
+//    		System.out.println(array[i]);
+//    	}
+    	//------------------------
+    	
+//    	double fuelCost = 12.5;
+//    	
+//    	double fuelAmount = 55.0;
+//    	
+//    	Car car = new Car (fuelCost, fuelAmount);
+//    	
+//    	car.move(20);
+//    	System.out.println("残量は、" + car.getFuelAmount() + "です"); 
+    	
+    	//北ソフト工房練習問題
+    	
+    	System.out.println("Hello, World");    	
+   
      }
 }
