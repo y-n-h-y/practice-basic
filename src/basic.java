@@ -1,4 +1,4 @@
-package practice;
+
 
 public class basic {
     public static void main(String[] args) {
@@ -136,9 +136,48 @@ public class basic {
 //    	car.move(20);
 //    	System.out.println("残量は、" + car.getFuelAmount() + "です"); 
     	
-    	//北ソフト工房練習問題
+    	//北ソフト工房練習問題 	
     	
-    	System.out.println("Hello, World");    	
-   
+//    	System.out.println("Hello, World");
+//    	
+//    	int x = 11;
+//    	
+//    	System.out.println("x=" + x);
+    	
+//    	int x = 13;
+//    	int y = 17;
+//    	
+//    	System.out.println("x=" + x + "," + "y=" + y);
+    	
+//    	int x = 13+17;
+//    	
+//    	System.out.println(x);
+//    	
+//    	System.out.println(13*17);
+    	
+//    	int x = 7;
+//    	
+//    	x = x*3;
+//    	
+//    	System.out.println(x);
+//    	
+//    	x = x/2;
+//    	
+//    	System.out.println(x);
+    	
+//    	int x = 3;
+//    	int y = 7;
+//    	
+//    	x = 7;
+//    	y = 3;
+//
+//    	System.out.println( "x=" + x + ",y=" + y );
+    	
+    	int x = 19;
+        int y = 23;
+        
+        int z = x*y;
+        
+        System.out.println(z);
      }
 }
