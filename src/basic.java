@@ -173,11 +173,27 @@ public class basic {
 //
 //    	System.out.println( "x=" + x + ",y=" + y );
     	
-    	int x = 19;
-        int y = 23;
-        
-        int z = x*y;
-        
-        System.out.println(z);
-     }
+//    	int x = 19;
+//        int y = 23;
+//        
+//        int z = x*y;
+//        
+//        System.out.println(z);
+    	
+//    	int x = 2;
+//    	
+//    	System.out.println(x*2 + "," + x*3 + "," + x*4);
+    	
+//    	int x = 9;
+//    	
+//    	System.out.println(x/3 + "," + x%2);
+    	
+    	int x = 2;
+    	x++;
+    	System.out.println(x);
+    	x--;
+    	x--;
+    	System.out.println(x);
+    	
+    }
 }
