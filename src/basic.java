@@ -1,5 +1,3 @@
-
-
 public class basic {
     public static void main(String[] args) {
         // System.out.println("Hello, WEBCAMP!");
@@ -188,12 +186,170 @@ public class basic {
 //    	
 //    	System.out.println(x/3 + "," + x%2);
     	
-    	int x = 2;
-    	x++;
-    	System.out.println(x);
-    	x--;
-    	x--;
-    	System.out.println(x);
+//    	int x = 2;
+//    	x++;
+//    	System.out.println(x);
+//    	x--;
+//    	x--;
+//    	System.out.println(x);
+    	
+//    	String s = "Hello World";
+//    	System.out.println(s);
+//    	
+//    	int x = 5;
+//    	System.out.println(x);
+    	
+//    	int x = 2;
+//    	x *= x;
+//    	System.out.println(x);
+//    	x *= x;
+//    	System.out.println(x);
+//    	x *= x;
+//    	System.out.println(x);
+    	
+//    	int x = 6;
+//    	int y = 4;
+//    	
+//    	System.out.println(x + y);
+//    	System.out.println(x - y);
+//    	System.out.println(x * y);
+//    	System.out.println(x / y);
+//    	System.out.println(x % y);
+    	
+//    	int sum = 0;
+//    	int[] data = {2,6};
+//    	for (int i = 0; i < data.length; i++) {
+//    		sum += data[i];
+//    	}
+//    	int ave = sum/data.length;
+//    	System.out.println(ave);
+    	
+//    	int age = 26;
+//    	System.out.println(age*365);
+    	
+//    	int x = 6;
+//    	int y = 3;
+//    	
+//    	if (x > y) {
+//    		System.out.println("xはyより大きいです");
+//    	} else {
+//    		System.out.println("xはYより小さいです");
+//    	}
+    	
+//    	int x = 6;
+//    	int y = 6;
+//    	
+//    	if (x > y) {
+//    		System.out.println("xはyより大きいです");
+//    	} else if (x == y) {
+//    		System.out.println("xとyは等しいです");
+//    	} else {
+//    		System.out.println("xはyより小さいです");
+//    	}
+//    	
+//    	int x = 7;
+//    	
+//    	if (x % 2 == 0) {
+//    		System.out.println("偶数");
+//    	} else {
+//    		System.out.println("奇数");
+//    	}
+    	
+//    	int x = -6;
+//    	
+//    	if (x % 2 == 0) {
+//    		if (x > 0) {
+//    			System.out.println("正の偶数");
+//    		} else {
+//    			System.out.println("負の偶数");
+//    		}
+//    	} else {
+//    		if (x > 0) {
+//    			System.out.println("正の奇数");
+//    		} else {
+//    			System.out.println("負の奇数");
+//    		}
+//    	}
+    	
+//    	int result = 59;
+//    	
+//    	if (result >= 60) {
+//    		System.out.println("合格");
+//    	} else {
+//    		System.out.println("不合格");
+//    	}
+//    	
+//    	int result2 = 79;
+//    	
+//    	if (result2 >= 80) {
+//    		System.out.println("大変よくできました");
+//    	} else if (result2 >= 60 && result2 < 80) {
+//    		System.out.println("よくできました");
+//    	} else {
+//    		System.out.println("残念でした");
+//    	}
+//    	
+//    	int result3 = 79;
+//    	
+//    	if (result3 >= 80) {
+//    		System.out.println("優");
+//    	} else if (result3 >= 70 && result3 < 80) {
+//    		System.out.println("良");
+//    	} else if (result3 >= 60 && result3 < 70) {
+//    		System.out.println("可");
+//    	} else {
+//    		System.out.println("負荷");
+//    	}
+    	
+//    	String spam = "SPAM";
+//    	
+//    	for ( int i = 1; i <= 10; i++) {
+//    		System.out.println(spam);
+//    	}
+    	
+//    	for (int i = 1; i < 9; i++) {
+//    		System.out.print(3 * i + " ");
+//    	}
+    	
+//    	int x = 1;
+//    	
+//    	for (int i = 1; i <= 8; i++) {
+//    		x *= 2;
+//    		
+//    		System.out.println("2の" + i + "乗=" + x);
+//    	}
+    	
+//    	int number = 1;
+//    	
+//    	while (number < 50) {
+//    		number *= 2;
+//    		System.out.println("while01=" + number);
+//    	}
+    	
+//    	for (int number = 1; number <= 5; number++) {
+//    		System.out.println("For01=" + number);
+//    	}
+    	
+//    	int[] array = {1,2,3,4,5};
+//    	
+//    	for (int number : array) {
+//    		System.out.println("For02=" + number);
+//    	}
+    	
+//    	int num = 1;
+//    	while (num <= 5) {
+//    		System.out.println(num * num);
+//    		num++;
+//    	}
+    	
+    	int[] array = {1,2,3,4};
+    	for (int num = 0; num < array.length; num++) {
+    		if (num % 2 == 0) {
+    			continue;
+    		}
+    		System.out.println(num);
+    	}
+    	
     	
     }
 }
